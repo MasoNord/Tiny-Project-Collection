@@ -46,3 +46,6 @@ task-cli
 # Why is this project useful
 - Gain some experience of working with click library for creating iteractice command line interfaces
 - Practice working with json files 
+
+# Source of Inspiration
+- [roadmap.sh](https://roadmap.sh/projects/task-tracker)
