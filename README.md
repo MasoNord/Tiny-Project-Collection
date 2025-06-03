@@ -6,7 +6,9 @@ In this repostitory I'm going to store all my tiny projects which I made for lea
 - [CLI](#CLI)
 - [API](#API)
 - [Web App](#Web-App)
+- [Telegram Bot](#Telegram-Bot)
 
 
 # CLI
 - **Task Tracker** - is a simple CLI tool to create and manage tasks
+- **Git Hub User Activity** - is a simple CLI tool to fetch recent activity of a GitHub user and display it in the terminal
