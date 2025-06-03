@@ -48,4 +48,4 @@ task-cli
 - Practice working with json files 
 
 # Source of Inspiration
-- [roadmap.sh](https://roadmap.sh/projects/task-tracker)
+https://roadmap.sh/projects/task-tracker
