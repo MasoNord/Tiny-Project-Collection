@@ -1,0 +1,15 @@
+[project]
+name = "github_activity"
+version = "1.0.0"
+description = "Git Hub Activity"
+requires-python = ">=3.11"
+dependencies = [
+    "click>=8.1",
+]
+
+[project.scripts]
+github-activity = "github_activity:cli"
+
+[build-system]
+requires = ["flit_core<4"]
+build-backend = "flit_core.buildapi"
