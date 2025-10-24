@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body { 
+    height: 100vh;
+    display: flex;
+    background-color: #F4D04E;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    height: 522px;
+    width: 384px;
+    background-color: #FFFFFF;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    box-shadow: 8px 8px black;
+    flex-direction: column;
+
+}
+
+.ill-acticle {
+    width: 336px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 20px;
+    align-self: center;
+}
+
+.card-content {
+    display: flex;
+    width: 336px;
+    height: 194px;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.tag {
+    display: flex;
+    width: 82px;
+    height: 29px;
+    background-color: #F4D04E;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Figtree';
+    font-weight: bold;
+
+}
+
+.date {
+    font-family: 'Figtree';
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.title {
+    font-family: 'Figtree';  
+    margin-top: 20px;
+}
+
+.description {
+    font-family: 'Figtree'; 
+    color: #6B6B6B;
+    margin-top: 20px;
+}
+
+.card-author {
+    display: flex;
+    width: 129px;
+    height: 32px;
+    margin: 25px;
+    align-items: center;
+}
+
+.author-avatar {
+    width: 32px;
+    height: 32px;
+}
+
+.author-name {
+    font-family: 'Figtree';
+    font-weight: bold;
+    margin-left: 10px;
+    text-wrap: nowrap;
+}
