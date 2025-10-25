@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+@font-face {
+  font-family: 'Inter-Bold';
+  src: url('./assets/fonts/static/Inter-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url('./assets/fonts/static/Inter-Regular.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Inter-SemiBold';
+    src: url('./assets/fonts/static/Inter-SemiBold.ttf') format('truetype')
+}
+
+
+body { 
+    height: 100vh;
+    display: flex;
+    background-color: hsl(0, 0%, 8%);
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    width: 350px;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 15px;
+}
+
+.avatar {
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.person-name {
+    font-family: 'Inter-SemiBold', sans-serif;
+    font-size: large;
+    color: hsl(0, 0%, 100%);
+    padding-top: 30px;
+
+}
+
+.person-location {
+    font-family: 'Inter-SemiBold', sans-serif;
+    font-size: 60%;
+    color: hsl(75, 94%, 57%);
+    padding-top: 10px;
+}
+
+.person-job-title {
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 60%;
+    color: hsl(0, 0%, 100%);
+    padding-top: 20px
+}
+
+.social-links {
+    height: 350px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.social-links-item {
+    width: 300px;
+    height: 40px;
+    font-family: 'Inter-SemiBold', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.social-links-item:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 0%)
+}
